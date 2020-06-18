@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 3px solid rgb(0, 51, 102) ;
+  padding: 35px;
+  margin-left: 25px;
+}
+
+button { 
+    padding: 20px;
+	background-color: pink;
+	margin-left: 55px; 
+ }
+
+ h2{
+ 	margin-left: 25px;
+color : rgb(0, 51, 102);
+ }
+ h3{
+ 		margin-left: 45px;
+color : rgb(0, 51, 102);
+ }
+ img{
+
+ 	size: 3px;
+ }
