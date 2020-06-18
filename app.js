@@ -1,8 +1,15 @@
-var box = document.getElementsByTagName("td")
+var square = document.getElementsByTagName("td")
 var counter = 0 
-box.onclick = function click (){
+square.onclick = function (){
 // if the player will start with X then the next click will be O , so show X when the counter is Even , O when its Odd 
-console.log(5)
+counter++
+if(counter%2===0){
+square.innerHTML="<img src=\"x.png\" >";
+}
+else{
+square.innerHTML="<img src=\"o.png\" >";
+
+}
 
 };
 
